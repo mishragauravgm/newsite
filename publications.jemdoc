@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{publications.html}
+\n
+= Publications
+
+Here is a list of my publications:
+
+== Journals
+
+- Sumeet Patiyal, Piyush Agrawal, Vinod Kumar, Anjali Dhall, Rajesh Kumar, Gaurav Mishra, and Gajendra PS Raghava. "NAGbinder: An approach for identifying n-acetylglucosamine interacting residues of a protein from its primary sequence". Protein Science, 2019
+
+== Conferences
+
+- Gaurav Mishra, Urvi Ahluwalia, Karan Praharaj, and Shreyangi Prasad. "Rf and rfid based object identification and navigation system for the visually impaired". In 2019 32nd International Conference on VLSI Design and 2019 18th International Conference on Embedded Systems (VLSID), pages 533–534. IEEE, 2019
+
+== Archival/Under Review
+
+- Piyush Agrawal, Gaurav Mishra, and Gajendra PS Raghava. "Sambinder: A web server for predicting sam binding residues of a protein from its amino acid sequence". bioRxiv, page 625806, 2019
+
+- Akshara Pande, Sumeet Patiyal, Anjali Lathwal, Chakit Arora, Dilraj Kaur, Anjali Dhall, Gaurav Mishra, Harpreet Kaur, Neelam Sharma, Shipra Jain, et al. "Computing wide range of protein/peptide features from their sequence and structure". bioRxiv, page 599126, 2019
+
+== Thesis
+
+- G. Mishra: "In-Silico Drug Discovery using Protein-Small Molecule Interaction", Shiv Nadar University, 2019 [thesis.pdf pdf]
+
+

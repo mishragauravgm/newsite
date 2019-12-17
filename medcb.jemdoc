@@ -1,0 +1,69 @@
+# jemdoc: menu{MENU}{prefix}
+\n 
+
+= AI in Medicine and Computational Biology
+
+\n
+This section mostly focuses on my work which was done at IIIT Delhi at Raghava's Lab. The project was multi-faceted with problem statements ranging from feature generation in protein sequences to predictive analysis in Drug Discovery. All the work done under this section are available as open source.
+\n(+Developing Open Source resources is one of the main cornerstones of Professor Raghava's research career+)
+
+=== Feature Engineering using Protein/Peptide sequences
+~~~
+*Computing wide range of protein/peptide features from their sequence and structure*  
+\nAkshara Pande, Sumeet Patiyal, Anjali Lathwal, Chakit Arora, Dilraj Kaur, Anjali Dhall, Gaurav Mishra, Harpreet Kaur, Neelam Sharma, Shipra Jain, et al.
+\nbioRxiv Preprint, April 2019
+
+[https://www.biorxiv.org/content/10.1101/599126v1 pdf], [https://webs.iiitd.edu.in/raghava/pfeature/ webserver], [https://github.com/raghavagps/Pfeature code]
+~~~
+/*Abstract*/:
+In order to facilitate scientific community, a software package that computes more than 50,000 features has been developed, important for predicting function of a protein and its residues. It has five major modules for computing; composition-based features, binary profiles, evolutionary information, structure-based features and patterns. The composition-based module allows user to compute the following(non-exhaustive): 
+
+- Miscellaneous compositions like pseudo amino acid, autocorrelation, conjoint triad, quasi-sequence order. 
+- Shannon entropy to measure the low complexity regions; 
+- Repeats and distribution of amino acids
+- simple compositions like amino acid, dipeptide, tripeptide; 
+- Properties based compositions;
+
+Binary profile of amino acid sequences provides complete information including order of residues or type of residues; specifically, suitable to predict function of a protein at residue level. Pfeature allows one to compute evolutionary information-based features in form of PSSM profile generated using PSIBLAST. Structure based module allows computing structure-based features, specifically suitable to annotate chemically modified peptides/proteins.In last three decades, a wide range of protein descriptors/features have been discovered to annotate a protein with high precision. A wide range of features have been integrated in numerous software packages (e.g., PROFEAT, PyBioMed, iFeature, protr, Rcpi, propy) to predict function of a protein. These features are not suitable to predict function of a protein at residue level such as prediction of ligand binding residues, DNA interacting residues, post translational modification etc.
+
+
+=== Protein-Ligand Interaction
+~~~
+*Sambinder: A web server for predicting sam binding residues of a protein from its amino acid sequence*\
+\nPiyush Agrawal, Gaurav Mishra, and Gajendra PS Raghava
+\nbioRxiv Preprint, May 2019
+
+[https://www.biorxiv.org/content/10.1101/625806v1.abstract pdf], [https://webs.iiitd.edu.in/raghava/sambinder/ webserver], [https://webs.iiitd.edu.in/raghava/sambinder/download.php dataset], [https://github.com/raghavagps/sambinder/ code]
+~~~
+
+/*Abstract*/:
+One of the primary hurdles in today's world of science is the annotation of a protein at structural as well as functional level. Due to the swift headway in sequencing innovations, the number of protein sequences are increasing at an exponential rate in the respective databases, but they lack annotation, and this gap is increasing every moment. Therefore, there is a pressing necessity for the development of computational methods, which can determine the function of the proteins at the residue level. The interaction between the proteins and their ligands is crucial for the well‐being of an organism. In the last few decades, substantial efforts have been made toward the identification of the ligand‐binding residues in a protein as shown in the review by Sousa et al. At first, nonspecific methods were developed to predict the binding sites or pockets in the proteins, irrespective of their ligands but soon it was realized that each ligand possesses different physical and chemical properties. Therefore, new computational methods specific to the ligands came into the picture,6-10 which performed better as compared to nonspecific methods.
+
+S-adenosyl-L-methionine (SAM) is one of the important cofactor present in the biological system and play a key role in many diseases. There is a need to develop a method for predicting SAM binding sites in a protein for designing drugs against SAM associated disease. Best of our knowledge, there is no method that can predict the binding site of SAM in a given protein sequence.
+This manuscript describes a method SAMbinder, developed for predicting SAM binding sites in a protein from its primary sequence. All models were trained, tested and evaluated on 145 SAM binding protein chains where no two chains have more than 40% sequence similarity. Firstly, models were developed using different machine learning techniques on a balanced dataset contain 2188 SAM interacting and an equal number of non-interacting residues. Our Random Forest based model developed using binary profile feature got maximum MCC 0.42 with AUROC 0.79 on the validation dataset. The performance of our models improved significantly from MCC 0.42 to 0.61, when evolutionary information in the form of PSSM profile is used as a feature. We also developed models on realistic dataset contains 2188 SAM interacting and 40029 non-interacting residues and got maximum MCC 0.61 with AUROC of 0.89. In order to evaluate the performance of our models, we used internal as well as external cross-validation technique.
+
+
+
+~~~
+*NAGbinder: An approach for identifying n-acetylglucosamine interacting residues of a protein from its primary sequence*
+\nSumeet Patiyal, Piyush Agrawal, Vinod Kumar, Anjali Dhall, Rajesh Kumar, Gaurav Mishra, Gajendra PS Raghava
+\nProtein Science, 2019
+
+[ pdf], [https://webs.iiitd.edu.in/raghava/nagbinder/ webserver], [https://webs.iiitd.edu.in/raghava/nagbinder/download.php dataset], [ code]
+~~~
+/*Abstract*/:
+In this study, we made a methodical attempt to predict the NAG interacting residues in the given protein sequence. We believe this study will be advantageous to the researchers working in the field of drug discovery. In order to facilitate the scientific community, a web server and standalone software has been developed for predicting the NAG interacting residues in a protein.
+
+The monosaccharide N‐acetylglucosamine (NAG) is ubiquitous in the environment. It is known for playing essential structural roles at the cell surface ranging from bacteria to human. It is the principal component of the bacterial cell wall peptidoglycan, and of chitin in the fungal cell wall. Glycosaminoglycans are also present on the extracellular matrix in animal cells. It is also involved in processes such as cell signaling in fungi and bacteria, and regulation of gene expressions. Plants and animal cells also use NAG for cell signaling and act as the sensors for the status of the nutrition that lead to the modification of the protein by the attachment of O‐GlcNAc. In recent years, NAG is suggested as a treatment for autoimmune disorders. In the case of human, NAG signaling facilitates the coexistence of the extensive range of bacteria, fungi, and human cells in the gut.
+
+
+
+~~~
+*In-Silico Drug Discovery using Protein-Small Molecule Interaction* 
+\n Gaurav Mishra, Gajendrs PS Raghava
+\n Shiv Nadar University Library, May 2019
+
+[thesis.pdf pdf]
+~~~
+/*Abstract*/:
+Proteins are the fundamental players of all living cells and play a vital role in various cellular functions. Protein function is primarily determined by its struc- ture. Interaction of protein with other molecules for example, ligand or other small molecules imparts its specific function. Protein-small molecule interaction is one such interaction which has been studied in detail in past in the field of drug designing. These small molecules carry out various processes such as sig- nal transmission, post-translational modification, etc. therefore it is important to understand the protein-small molecule interaction in order to design novel drugs. The project aims at creating an in-silico model drug discovery model by predict- ing if a particular amino acid in a given protein would bind to a ligand. We have chosen the ligand as Uridine-5’-diphosphate. The ligand imparts many important functionalities to the proteins it interacts with. Various machine learning algo- rithms have been used to generate predictive models which successfully do the required task. In this study, we will make an attempt to annotate protein at residue level. We will select biologically important ligand to find out interaction with given protein sequences by implementing machine learning techniques including. The application of this work will be in drug designing where we will target the proteins which are involved in various diseases like cancer, tuberculosis, etc.
