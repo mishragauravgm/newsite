@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{prefix}
-\n 
+\n
 
 = AI in Medicine and Computational Biology
 
@@ -9,22 +9,22 @@ This section mostly focuses on my work which was done at IIIT Delhi at Raghava's
 
 === Feature Engineering using Protein/Peptide sequences
 ~~~
-*Computing wide range of protein/peptide features from their sequence and structure*  
+*Computing wide range of protein/peptide features from their sequence and structure*
 \nAkshara Pande, Sumeet Patiyal, Anjali Lathwal, Chakit Arora, Dilraj Kaur, Anjali Dhall, Gaurav Mishra, Harpreet Kaur, Neelam Sharma, Shipra Jain, et al.
 \nbioRxiv Preprint, April 2019
 
 [https://www.biorxiv.org/content/10.1101/599126v1 pdf], [https://webs.iiitd.edu.in/raghava/pfeature/ webserver], [https://github.com/raghavagps/Pfeature code]
 ~~~
 
-In order to facilitate scientific community, a software package that computes more than 50,000 features has been developed, important for predicting function of a protein and its residues. It has five major modules for computing; composition-based features, binary profiles, evolutionary information, structure-based features and patterns. The composition-based module allows user to compute the following(non-exhaustive): 
+In order to facilitate scientific community, a software package that computes more than 50,000 features has been developed, important for predicting function of a protein and its residues. It has five major modules for computing; composition-based features, binary profiles, evolutionary information, structure-based features and patterns. The composition-based module allows user to compute the following(non-exhaustive):
 
-- Miscellaneous compositions like pseudo amino acid, autocorrelation, conjoint triad, quasi-sequence order. 
-- Shannon entropy to measure the low complexity regions; 
+- Miscellaneous compositions like pseudo amino acid, autocorrelation, conjoint triad, quasi-sequence order.
+- Shannon entropy to measure the low complexity regions;
 - Repeats and distribution of amino acids
-- simple compositions like amino acid, dipeptide, tripeptide; 
+- simple compositions like amino acid, dipeptide, tripeptide;
 - Properties based compositions;
 
-Binary profile of amino acid sequences provides complete information including order of residues or type of residues; specifically, suitable to predict function of a protein at residue level. Pfeature allows one to compute evolutionary information-based features in form of PSSM profile generated using PSIBLAST. Structure based module allows computing structure-based features, specifically suitable to annotate chemically modified peptides/proteins.In last three decades, a wide range of protein descriptors/features have been discovered to annotate a protein with high precision. A wide range of features have been integrated in numerous software packages (e.g., PROFEAT, PyBioMed, iFeature, protr, Rcpi, propy) to predict function of a protein. These features are not suitable to predict function of a protein at residue level such as prediction of ligand binding residues, DNA interacting residues, post translational modification etc.
+Binary profile of amino acid sequences provides complete information including order of residues or type of residues; specifically, suitable to predict function of a protein at residue level. Pfeature allows one to compute evolutionary information-based features in form of PSSM profile generated using PSIBLAST. Structure based module allows computing structure-based features, specifically suitable to annotate chemically modified peptides\/proteins.In last three decades, a wide range of protein descriptors/features have been discovered to annotate a protein with high precision. A wide range of features have been integrated in numerous software packages (e.g., PROFEAT, PyBioMed, iFeature, protr, Rcpi, propy) to predict function of a protein. These features are not suitable to predict function of a protein at residue level such as prediction of ligand binding residues, DNA interacting residues, post translational modification etc.
 
 
 === Protein-Ligand Interaction
@@ -59,7 +59,7 @@ The monosaccharide N‐acetylglucosamine (NAG) is ubiquitous in the environment.
 
 
 ~~~
-*In-Silico Drug Discovery using Protein-Small Molecule Interaction* 
+*In-Silico Drug Discovery using Protein-Small Molecule Interaction*
 \n Gaurav Mishra, Gajendrs PS Raghava
 \n Shiv Nadar University Library, May 2019
 
