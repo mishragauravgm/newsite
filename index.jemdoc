@@ -1,9 +1,9 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
-= Gaurav Mishra 
+# jemdoc: menu{MENU}{index.html}, nofooter
+= Gaurav Mishra
 
 ~~~
 {}{img_left}{photos/pic.jpeg}{alt text}{200}{200}
-Bachelor of Technology, 
+Bachelor of Technology,
 \n[https://www.snu.edu.in Shiv Nadar University (SNU)]\n
 Phone: \+91-89488-96129 \n
 E-mail: gm213@snu.edu.in
@@ -16,7 +16,7 @@ I received Bachelor of Technology(with distinction) in Electronics and Communica
 
 
 == Research
-My research interests include 
+My research interests include
 - Deep Learning
 - Machine Learning
 - AI in Healthcare and Medicine
@@ -25,9 +25,10 @@ My research interests include
 [research.html Find out more].
 
 == News
-- +October 2019+, NAGBinder paper accepted at Protein Science. Paper can be found [https://onlinelibrary.wiley.com/doi/epdf/10.1002/pro.3761 here] 
+- +December 2019+, Christmas came early, SAMBinder Paper accepted at Journal of Pharmacology.
+- +October 2019+, NAGBinder paper accepted at Protein Science. Paper can be found [https://onlinelibrary.wiley.com/doi/epdf/10.1002/pro.3761 here]
 
-== Recent Publications 
+== Recent Publications
 - Piyush Agrawal, Gaurav Mishra, and Gajendra PS Raghava. \"Sambinder: A web server for predicting sam binding residues of a protein from its amino acid sequence\". bioRxiv, page 625806, 2019
 
 - Sumeet Patiyal, Piyush Agrawal, Vinod Kumar, Anjali Dhall, Rajesh Kumar, Gaurav Mishra, and Gajendra PS Raghava. \"NAGbinder: An approach for identifying n-acetylglucosamine interacting residues of a protein from its primary sequence\". Protein Science, 2019
@@ -40,4 +41,3 @@ My research interests include
 
 [publications.html Full list of publications].
 \n
-
