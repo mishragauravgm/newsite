@@ -1,5 +1,6 @@
 # jemdoc: menu{MENU}{prefix}
 
+\n
 = Neuro Image analysis
 
 Aimed at discerning asymmetry between the left and right cerebral hemispheres using MR modality.
