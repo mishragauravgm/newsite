@@ -1,6 +1,9 @@
+= Projects(Select)
+
 == Explainable AI in Medical Diagnoses using Weakly Supervised Segmentation and sub-network training
 
-\n Done at Professor Sivaswamy's Lab, CVIT, IIIT Hyderabad
+\n 
+*Professor Sivaswamy's Lab, CVIT, IIIT Hyderabad*
 
 While adoption of AI into a plethora of fields can seem promising and easy going, it's not the case in medical domain due to the black box approach the deep learning approaches employ. This work is aimed at bridging the trust gap between AI based diagnoses and clinician bases diagnoses. Using novel training methodology and architecture, we propose to provide explanations to the decisions. We propose a single architecture which can deal with a data set which is fully labeled but only a fraction of those images have local annotations.  
 
