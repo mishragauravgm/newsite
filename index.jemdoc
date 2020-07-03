@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: menu{MENU}{index.html}, Last Updated on 3rd July
 \n
 \n
 
@@ -32,7 +32,7 @@ My research interests include
 - +October 2019+, NAGBinder paper accepted at Protein Science. Paper can be found [https://onlinelibrary.wiley.com/doi/epdf/10.1002/pro.3761 here]
 
 == Recent Publications
-- Piyush Agrawal, Gaurav Mishra, and Gajendra PS Raghava. \"Sambinder: A web server for predicting sam binding residues of a protein from its amino acid sequence\". bioRxiv, page 625806, 2019
+- Agrawal, Piyush, Gaurav Mishra, and Gajendra PS Raghava. "SAMbinder: A Web Server for Predicting S-Adenosyl-L-Methionine Binding Residues of a Protein From Its Amino Acid Sequence." Frontiers in pharmacology 10 (2020): 1690.
 
 - Sumeet Patiyal, Piyush Agrawal, Vinod Kumar, Anjali Dhall, Rajesh Kumar, Gaurav Mishra, and Gajendra PS Raghava. \"NAGbinder: An approach for identifying n-acetylglucosamine interacting residues of a protein from its primary sequence\". Protein Science, 2019
 
